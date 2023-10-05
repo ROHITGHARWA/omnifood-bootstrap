@@ -1,0 +1,165 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+.navbar-brand img {
+  width: 10rem;
+}
+.nav-item,
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.nav-link:active,
+.nav-link:hover {
+  color: #cf711f;
+}
+.nav-btn {
+  background-color: #e67e22;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  transition: all 0.3s;
+}
+.nav-btn:hover {
+  background-color: #cf711f;
+}
+.hero {
+  padding: 1rem 6rem 4rem 6rem;
+  overflow-x: hidden;
+}
+.hero-heading h1 {
+  font-size: 3.2rem;
+}
+.hero-text p {
+  line-height: 1.5;
+  letter-spacing: 1.8;
+}
+.hero-text h4 {
+  font-weight: 400;
+  letter-spacing: 0.5;
+  line-height: 1.2;
+  font-size: 1.5rem;
+}
+
+.button-links .btn-one {
+  background-color: #cf711f;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.button-links .btn-two {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(70, 66, 66);
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+.btn-one:hover {
+  color: #eee;
+}
+.delivered-cutomers img {
+  width: 50px;
+  height: 50px;
+  margin-right: -20px;
+}
+.delivery-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.features-image img {
+  max-width: 100%;
+  height: 35px;
+  filter: grayscale(100);
+  opacity: 0.6;
+}
+.features-text h4 {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.icon-yellow {
+  color: #cf711f;
+}
+.card-icon ion-icon {
+  color: #cf711f;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  padding: 0.9rem;
+}
+.card-data {
+  margin-left: 2rem;
+}
+
+.testimonial-section {
+  background-color: #fdf2e9;
+}
+.gallery-images img:hover {
+  transform: scale(1.1);
+}
+.gallery-images img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.gallery-images {
+  margin: 0;
+  overflow: hidden;
+}
+.pricing-card {
+  width: 25rem;
+  border: 1px solid #fdf2e9;
+  border-radius: 0.9rem;
+}
+.pricing-card-2 {
+  width: 25rem;
+  background-color: #fdf2e9;
+  border-radius: 0.9rem;
+}
+.price-button button {
+  font-size: 1.3rem;
+  border-radius: 12px;
+  border: none;
+}
+.card-title {
+  font-size: 1.4rem;
+}
+.card-text {
+  font-size: 1.1rem;
+  letter-spacing: 1.2;
+}
+.form-box {
+  background-color: #e67e22;
+}
+.form-btn {
+  padding-top: 30px;
+}
+.inputs {
+  border-radius: 50px;
+}
+.form-btn button {
+  background-color: #45260a;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+}
+.form-btn button:active,
+.form-btn button:hover {
+  background-color: #eee;
+  color: #45260a;
+}
+.form-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(235, 151, 78, 0.35),
+      rgb(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.hr {
+  border-top: 1px solid #eee;
+}

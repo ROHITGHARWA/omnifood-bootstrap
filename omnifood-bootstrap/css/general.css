@@ -1,0 +1,85 @@
+/* ---------------multi time used css ------------------------------*/
+.bg-color-one {
+  background-color: rgb(253, 242, 233);
+}
+.text-color {
+  color: #cf711f;
+  font-size: 1.2rem;
+  transition: font-size 0.5s;
+}
+.text-color:active,
+.text-color:hover {
+  color: #ee8020;
+  font-size: 1.5rem;
+  transition-delay: 0.1s;
+}
+.bg-color-two {
+  background-color: rgb(253, 242, 233);
+}
+.bg-btn-color {
+  background-color: #cf711f;
+}
+.bg-circle-color {
+  background-color: #fdf2e9;
+}
+.bg-circle-color-two {
+  background-color: #fae5d3;
+}
+
+.step-number {
+  font-size: 6rem;
+  opacity: 0.2;
+}
+.step-head {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+.step-text {
+  font-size: 1.2rem;
+  padding-bottom: 1.9rem;
+}
+.step-img img {
+  height: 25rem;
+}
+.section-how-box {
+  padding: 3rem;
+}
+.step-circle {
+  width: 20rem;
+  height: 18rem;
+  z-index: -1;
+}
+.step-circle-2 {
+  width: 16rem;
+  height: 14rem;
+  z-index: -1;
+}
+.section-heading-color {
+  color: #cf711f;
+}
+.section-meals {
+  background-color: #f6f6f6ee;
+}
+.card-tags {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.card-body {
+  background-color: #ffffff;
+}
+#tag1 {
+  background-color: #51cf66;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 30px;
+}
+
+#tag2 {
+  background-color: #94d82d;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 30px;
+}
+
+#tag3 {
+  background-color: #ffd43b;
+  padding: 0.3rem 0.3rem;
+  border-radius: 30px;
+}

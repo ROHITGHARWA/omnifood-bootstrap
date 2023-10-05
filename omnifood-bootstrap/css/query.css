@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+  .hero {
+    padding: 1rem 0.2rem 1rem 0.2rem;
+  }
+  .hero-heading h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .hero-text p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .button-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button-links .btn-two {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  .features-image img {
+    max-height: 1.5vh;
+  }
+  .section-center {
+    text-align: center;
+  }
+  .testimonial-heading h2 {
+    font-size: 1.7rem;
+  }
+  .pricing-text h4 {
+    font-size: small;
+  }
+  .pricing-text h1 {
+    font-size: 1.8rem;
+  }
+  .price-button button {
+    font-size: 0.2rem;
+  }
+  .form-btn {
+    padding-top: auto;
+  }
+}
